@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+include
 <?PHP
 /*
 *$sourePic:原圖路徑
