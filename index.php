@@ -1,59 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
   <head>
     <meta charset="utf-8">
     <title>北普介紹網頁目錄</title>
-    <style>
-      body
-      {
-        background-color: #d0e4fe;
-      }
-      h1
-      {
-        color: orange;
-        text-align: center;
-      }
-      p
-      {
-        font-family: "Times New Roman";
-        font-size: 20px;
-      }
-      .img-demo
-      {
-        height:200px;
-        overflow:hidden;
-        border:1px solid #ccc;
-      }
-
-      .img-demo img
-      {
-        margin-top: -5%;
-      }
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    	nav{
+    		width: 100%;
+    		height: 80px;
+    		background: rgba(0,0,0,.3);
+    		position: absolute;
+    		z-index: 10;
+    	}
+    	nav ul{
+    		list-style: none;
+    		margin: 0;
+    		padding: 0;
+    	}
+    	nav ul li{
+    		text-align: center;
+    		float: right;
+    		line-height: 60px;
+    	}
+    	nav ul li a{
+    		width: 100px;
+    		color: #fff;
+    		font-size: 20px;
+    		font-weight: 600;
+    		display: block;
+    	}
+    	nav ul li a:hover,nav ul li a:visited{
+    		text-decoration: none;
+    		background: rgba(0,0,0,.5);
+    		color: #fff;
+    	.words{font-size: 40px;
+    			position: absolute;
+    			top:50%;
+    			left: 30%;}
+    	.imgw{position: relative;}
     </style>
   </head>
   <body>
-    <div class="box">
-      <img src="img-jpg/mainmenu1.jpg" alt="北埔冷泉">
-    </div>
-    <h1>北普介紹~</h1>
+    <header>
+
+      <div style="text-align:right";>
+        <nav>
+      		<ul>
+
+            <li><a href="#">問題回報</a></li>
+            <li><a href="#">文化歷史</a></li>
+            <li><a href="#">產品介紹</a></li>
+      			<li><a href="#">關於我們</a></li>
+            <li class="active"><a href="http://localhost/introduct/index.php">首页</a></li>
+            <li><h1>
+      		</ul>
+      	</nav>
+      </div>
+      <img src="img-jpg/mainmenu2.jpg">
+    </header>
+    <hr>
+    <
 
 
-    <form action="culture.php" method="post">
-      <input type="submit" value="文化歷史"></p>
-    </form>
 
-    <form action="sightseeing.php" method="post">
-      <input type="submit" value="景觀介紹"></p>
-    </form>
-
-
-    <form action="traffic.php" method="post">
-      <input type="submit" value="交通位置"></p>
-    </form>
-
-    <form action="industry.php" method="post">
-      <input type="submit" value="產業發展"></p>
-    </form>
 
   </body>
 <html>
