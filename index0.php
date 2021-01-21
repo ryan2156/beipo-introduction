@@ -14,7 +14,7 @@
     	}
     	nav ul{
     		list-style: none;
-    		margin: 0;
+    		margin: 10px;
     		padding: 0;
     	}
     	nav ul li{
@@ -46,9 +46,8 @@
       <div style="text-align:right";>
         <nav>
       		<ul>
-
-            <li><a href="#">問題回報</a></li>
-            <li><a href="#">文化歷史</a></li>
+            <li><a href="#">柿餅機功能</a></li>
+            <li><a href="#">曬柿餅步驟</a></li>
             <li><a href="#">產品介紹</a></li>
       			<li><a href="#">關於我們</a></li>
             <li class="active"><a href="http://localhost/introduct/index.php">首頁</a></li>
