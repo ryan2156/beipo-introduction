@@ -5,7 +5,9 @@
     <title>北普介紹網頁目錄</title>
     <link href="style.css" rel="stylesheet" type="text/css">
     <style type="text/css">
-    	nav{
+      article{
+        color: rgb(255,255 ,255);}
+      nav{
     		width: 100%;
     		height: 80px;
     		background: rgba(0,0,0,.3);
@@ -40,28 +42,36 @@
     	.imgw{position: relative;}
     </style>
   </head>
-  <body>
+  <body style="background-color:#FF8000">
     <header>
-
       <div style="text-align:right";>
         <nav>
       		<ul>
             <li><a href="#">柿餅機功能</a></li>
-            <li><a href="#">曬柿餅步驟</a></li>
+            <li><a href="#">柿餅</a></li>
             <li><a href="#">產品介紹</a></li>
       			<li><a href="#">關於我們</a></li>
-            <li class="active"><a href="http://localhost/introduct/index.php">首頁</a></li>
+            <li class="active"><a href="http://localhost/introduct/index0.php">首頁</a></li>
             <li><h1>
       		</ul>
       	</nav>
       </div>
-      <img src="img-jpg/mainmenu2.jpg">
     </header>
-    <hr>
-    <
+    <article>
+      <section>
+        <blockquote>
+          <h2>自動曬柿餅機的可行性</h2>
+          <div style="font-size: large;">
+            <pre style="font-weight:bolder;" style="font-size: large;">
+隨著北埔青壯年人口的外移加上當地人口老化，
+人力資源極度匱乏，不足以應付柿餅產業所需
+的勞動力，使得北埔的傳統文化逐漸式微。自動
+曬柿餅機可以當成替代動力。
+            </pre>
+          </div>
+        </blockquote>
+      </section>
 
-
-
-
+    </article>
   </body>
 <html>
