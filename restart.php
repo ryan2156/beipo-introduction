@@ -35,10 +35,12 @@
       article {
         position: absolute;
         margin: 8% 20%;
-        width: 60%;
+        width: 70%;
         height: 100%;
         background-color: #CC5;
         font-family: "微軟正黑體";
+        color: rgb(255, 255, 255);
+
       }
       .section1{
         position: relative;
@@ -46,11 +48,14 @@
         padding: 5px;
         width: 80%;
         height: 20%;
-        background: rgba(22,80,60)
+        background: rgba(22,80,60);
+        text-align: top;
       }
-      .section-img{
+      .sectionimg{
         position: relative;
-        width:20%;float: left;
+        width:auto;float: left;
+        height: 100%;
+        background:#CD2;
       }
       .img{
         max-height: 100%;
@@ -61,6 +66,11 @@
         top: 0;
         left: 0;
         margin: auto;
+        float: left;
+      }
+      .con{
+        width: 10px;
+        height:100%;
         float: left;
       }
     </style>
@@ -79,7 +89,23 @@
     </header>
     <article>
       <section class="section1">
-        <span class="section1jpg"><img src="img-jpg/pic1.jpg" class="img">
+        <img src="img-jpg/pic1.jpg"class="sectionimg">
+        <div class="con"></div>
+          <h2>自動曬柿餅機的移動部分</h2>
+          <p>
+            這是目前的移動機構，採用的是麥克納姆輪，優點為穩定平台減少
+            因為轉彎而造成的搖晃，缺點為輪胎不平，會有震動。
+          </p>
+      </section>
+      <section class="section1">
+        <h2>北埔曬柿餅文化的難題</h2>
+        <p>
+          隨著北埔青壯年人口的外移加上當地人口老化，
+          人力資源極度匱乏，不足以應付柿餅產業所需的勞動力，
+          使得北埔的傳統文化逐漸式微。
+        </p>
+        <div class="con"></div>
+        <img src="img-jpg/mainmenu1.jpg" class="sectionimg">
       </section>
     </article>
   </body>
