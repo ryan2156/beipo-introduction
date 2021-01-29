@@ -51,6 +51,10 @@
         background: rgba(22,80,60);
         text-align: top;
       }
+      .section2{
+        position: relative;
+
+      }
       .sectionimg{
         position: relative;
         width:auto;float: left;
@@ -71,6 +75,11 @@
       .con{
         width: 10px;
         height:100%;
+        float: left;
+      }
+      #section2font{
+        max-width: 55%;
+        max-height: 100%;
         float: left;
       }
     </style>
@@ -98,13 +107,14 @@
           </p>
       </section>
       <section class="section1">
-        <h2>北埔曬柿餅文化的難題</h2>
-        <p>
-          隨著北埔青壯年人口的外移加上當地人口老化，
-          人力資源極度匱乏，不足以應付柿餅產業所需的勞動力，
-          使得北埔的傳統文化逐漸式微。
-        </p>
-        <div class="con"></div>
+        <div id="section2font">
+          <h2>北埔曬柿餅文化的難題</h2>
+          <p>
+            隨著北埔青壯年人口的外移加上當地人口老化，
+            人力資源極度匱乏，不足以應付柿餅產業所需的勞動力，
+            使得北埔的傳統文化逐漸式微。
+          </p>
+        </div>
         <img src="img-jpg/mainmenu1.jpg" class="sectionimg">
       </section>
     </article>
