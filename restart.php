@@ -32,9 +32,15 @@
         background-color: rgba(255, 0, 0, 0.5);
         color: #fff;
       }
+      #headerleft{
+        text-align: center;
+        float: left;
+        color: #00E6E6;
+        font: italic normal bolder 2em/60px '微軟正黑體';
+      }
       article {
         position: absolute;
-        margin: 8% 20%;
+        margin: 8% 15%;
         width: 70%;
         height: 100%;
         background-color: #CC5;
@@ -46,9 +52,9 @@
         position: relative;
         margin: 10% auto;
         padding: 5px;
-        width: 80%;
+        width: 70%;
         height: 20%;
-        background: rgba(22,80,60);
+        background: rgba(22,80,60);0..
         text-align: top;
       }
       .section2{
@@ -88,16 +94,16 @@
     <header>
       <nav>
         <ul>
-          <li><a href="#">柿餅機功能</a></li>
+          <li id="headerleft">北埔社區創生計畫</li>
+          <li><a href="http://localhost/introduct/machine.php">柿餅機介紹</a></li>
           <li><a href="#">柿餅</a></li>
-          <li><a href="#">產品介紹</a></li>
           <li><a href="#">關於我們</a></li>
           <li><a href="http://localhost/introduct/restart.php">首頁</a></li>
         </ul>
       </nav>
     </header>
     <article>
-      <section class="section1">
+      <section class="section1"><!--第一段-->
         <img src="img-jpg/pic1.jpg"class="sectionimg">
         <div class="con"></div>
           <h2>自動曬柿餅機的移動部分</h2>
@@ -106,7 +112,7 @@
             因為轉彎而造成的搖晃，缺點為輪胎不平，會有震動。
           </p>
       </section>
-      <section class="section1">
+      <section class="section1"><!--第二段-->
         <div id="section2font">
           <h2>北埔曬柿餅文化的難題</h2>
           <p>
@@ -115,7 +121,7 @@
             使得北埔的傳統文化逐漸式微。
           </p>
         </div>
-        <img src="img-jpg/mainmenu1.jpg" class="sectionimg">
+        <img src="img-jpg/mainmenu2.jpg" class="sectionimg">
       </section>
     </article>
   </body>
