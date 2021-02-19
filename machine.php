@@ -18,17 +18,12 @@
     </header>  <!--上排選單-->
     <section>
       <div class="content">
-        <h2>創作動機</h2>
-        <pre id="motivation">
-          對於北埔當地傳統柿餅文化的流失
-          原有的柿餅產業本來就已經很式微了
-          加上年輕一輩的勞動力外流讓傳統客家文化的傳承更難上加難
-          因此我們想要透過物聯網iot技術配合自動化機械來加以挽回傳統產業的逝去
-          並添加文化創新和技術改進
-          讓曾經的柿餅產業容光煥發
-        </pre>
-      </div>
+        <div id="machinecircle">
+          <h2 class="machineh2">柿餅機樣子</h2>
+          <p>目前輪子採用麥克納姆輪</p>
+        </div>
+        <img id="machinecircleimg" src="img-jpg/pic1.jpg">
     </section>
-    <section
+    <section>
   </body>
 <html>
